@@ -4,4 +4,9 @@ function wd() {
     var y = parseFloat(document.getElementById('year').value);
     var x = (y - 1) / 100 + 1;
     var weekDay = (((c / 4) - 2 * c - 1) + ((5 * y / 4)) + ((26 * (m + 1) / 10)) + d) % 7;
+    console.log(weekDay);
+    document.getElementById('result').innerHTML = Math.round(weekDay);
+
+    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 }
