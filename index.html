@@ -7,41 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Akan Name</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <script href="script.js"></script>
+</head>
 
-    <body>
-        <div class="container">
-            <h1 class="jumbotron">Akan Names Website</h1>
-            <p>This is a web application that takes your birthday and calculates the day of the week you were born. Then depending to your gender displays your <em>Akan name.</em></p>
-            <p>Please, enter your birthday.</p>
-            <form>
-                <div class="form-group">
-                    <div class="form-row">
-                        <div class="col-md-4">
-                            <input type="number" id="d" placeholder="Day">
-                        </div>
+<body>
+    <div class="container">
+        <h1 class="jumbotron">Akan Names Website</h1>
+        <p>This is a web application that takes your birthday and calculates the day of the week you were born. Then depending to your gender displays your <em>Akan name.</em></p>
+        <p>Please, enter your birthday.</p>
+        <form>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-4">
+                        <input type="number" id="d" placeholder="Day">
+                    </div>
 
-                        <div class="col-md-4">
-                            <label>/</label>
-                            <input type="number" id="m" placeholder="Month">
-                        </div>
-                        <div class="col-md-4">
-                            <label>/</label>
-                            <input type="number" id="y" placeholder="Year">
-                        </div>
+                    <div class="col-md-4">
+                        <label>/</label>
+                        <input type="number" id="m" placeholder="Month">
+                    </div>
+                    <div class="col-md-4">
+                        <label>/</label>
+                        <input type="number" id="y" placeholder="Year">
                     </div>
                 </div>
-                <div class="form-group">
-                    <select id="choice">
+            </div>
+            <select id="choice">
                         <option>Gender</option>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
-                    </select><br>
-                </div>
-                <button type="submit" id="submit">Submit</button>
-            </form>
-        </div>
-        <p id="result"></p>
-        <p id="akanName"></p>
-    </body>
+                </select><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <p id="result"></p>
+    <p id="akanName"></p>
+</body>
 
 </html>
