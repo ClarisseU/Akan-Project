@@ -1,7 +1,10 @@
-.back {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YB2oeeSa98i7UAynFvnxBql4VOaSJdx_jqGUM54hKuqP3epw");
+body {
+    background-image: url("https://static.wixstatic.com/media/00258e_11d1fcbdf3594142ab7c9421695b34aa.jpg/v1/fill/w_940,h_450,al_c,q_85,usm_0.66_1.00_0.01/00258e_11d1fcbdf3594142ab7c9421695b34aa.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .stire {
-    font-color: while;
+    /* color: white; */
 }
