@@ -1,10 +1,14 @@
 body {
-    background-image: url("https://static.wixstatic.com/media/00258e_11d1fcbdf3594142ab7c9421695b34aa.jpg/v1/fill/w_940,h_450,al_c,q_85,usm_0.66_1.00_0.01/00258e_11d1fcbdf3594142ab7c9421695b34aa.webp");
+    background-image: url("https://cdn.locomotive.works/sites/5ab130be74c4833febe6b45a/content_entry5aba37b374c4837dc15d1b5c/5aba382da2f4220ae645ce15/files/ghana-village-experience-min.jpg?1552714680");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
 .stire {
-    /* color: white; */
+    color: white;
+}
+
+.jumbotron {
+    color: rgb(10, 78, 10);
 }
