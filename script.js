@@ -16,16 +16,16 @@ function wd() {
         alert("you have entered an invalid date, please enter a valid one. Thank you!");
     } else if (m <= 0 && m > 12) {
         alert("you have entered an invalid date, please enter a valid one. Thank you!");
-        else {
-            if (z === "female") {
-                console.log(femme[Math.round(weekDay)]);
-                document.getElementById('akanName').innerHTML = femme[Math.round(weekDay)];
-            } else if (z === "male") {
-                console.log(homme[Math.round(weekDay)]);
-                document.getElementById('akanName').innerHTML = homme[Math.round(weekDay)];
-            } else {
-                console.log("invalid output");
-            }
+    } else {
+        if (z === "female") {
+            console.log(femme[Math.round(weekDay)]);
+            document.getElementById('akanName').innerHTML = femme[Math.round(weekDay)];
+        } else if (z === "male") {
+            console.log(homme[Math.round(weekDay)]);
+            document.getElementById('akanName').innerHTML = homme[Math.round(weekDay)];
+        } else {
+            alert(console.log("invalid output"));
+
         }
     }
 }
