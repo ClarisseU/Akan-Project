@@ -11,10 +11,11 @@ function wd() {
     var femme = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var homme = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var z = document.getElementById('choice').value;
+
     if (d <= 0 || d > 31) {
         // console.log("invalid input");
         alert("you have entered an invalid date, please enter a valid one. Thank you!");
-    } else if (m <= 0 && m > 12) {
+    } else if (m <= 0 || m > 12) {
         alert("you have entered an invalid date, please enter a valid one. Thank you!");
     } else {
         if (z === "female") {
@@ -23,9 +24,8 @@ function wd() {
         } else if (z === "male") {
             console.log(homme[Math.round(weekDay)]);
             document.getElementById('akanName').innerHTML = homme[Math.round(weekDay)];
-        } else {
-            alert(console.log("invalid output"));
 
         }
     }
+
 }
